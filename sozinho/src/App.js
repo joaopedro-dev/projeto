@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import './App.scss'
 import HeaderNav from './Components/Header/Header'
 import Dashboard from './Components/Dashboard/Dashboard'
 

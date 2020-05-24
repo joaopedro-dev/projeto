@@ -2,14 +2,16 @@
 
 .HeaderNav{
     
+    align-items: flex-start;
     font-family: 'Yrsa', serif;
-    font-size: 20px;
+    font-size: 22px;
     background-color: #364156;
-    padding: 15px;  
-    width: 100%;
     display: flex;
     justify-content: flex-start;
+    padding: 12px;  
     position: fixed;  
+    width: 100%;
+    
 
     a{
         text-decoration: none;
