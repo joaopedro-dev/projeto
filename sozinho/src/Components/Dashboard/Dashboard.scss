@@ -1,8 +1,9 @@
 .Dashboard{
-    background-color: rgb(168, 168, 168);
+    background-color: rgb(204, 202, 202);
+    text-align: center;      
     display: flex;
-    flex-direction: column;
-    padding: 100px; 
-    text-align: center; 
-    margin: 80px 200px 40px 200px;
+    grid-area: dash;
+    flex-direction: column;   
+    margin: 10px 50px;
+    border-radius: 8px;
 }

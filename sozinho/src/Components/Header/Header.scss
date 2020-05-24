@@ -1,25 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Yrsa:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
 
 .HeaderNav{
-    
-    align-items: flex-start;
-    font-family: 'Yrsa', serif;
-    font-size: 22px;
-    background-color: #364156;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    color: white;
     display: flex;
-    justify-content: flex-start;
-    padding: 12px;  
-    position: fixed;  
-    width: 100%;
-    
-
-    a{
-        text-decoration: none;
-        color: white;
-    }
-
-    a:visited{
-        color: white;
-    }
+    justify-items: center;
+    align-items: center;
+    grid-area: header;
+    background-color: #364156;
+    padding: 20px;
+    height: 15px;
+    position: fixed;
+    width: 200vh;
 
 }

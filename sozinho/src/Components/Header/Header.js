@@ -4,7 +4,7 @@ import './Header.scss'
 const headerNav = () => {
     return (
         <header className="HeaderNav">
-            <a href="#">Purpose</a>
+            <p>Purpose</p>
         </header>
     )
 }

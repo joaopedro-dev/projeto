@@ -1,4 +1,7 @@
-.App{
-    display: flex;
-    flex-direction: column;
+.container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 10vh 150vh ;
+    grid-template-areas: "header header"
+                        "dash dash"
 }
